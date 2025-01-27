@@ -1,0 +1,352 @@
+body { width: 1840px;
+    text-align: center;
+  align-content: center;
+}
+
+header, footer {
+    display: inline-flex;
+    width: 100%;
+    background-color: #ffffff;
+    justify-content: space-around;
+
+}
+
+header h3 {
+
+    width: 178px;
+    height: 26px;
+    font-family: "Raleway";
+    font-size: 22px;
+    font-weight: 700;
+}
+
+footer h3 {
+    width: 322px;
+    height: 22px;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21.79px;
+    padding-top: 10px;
+}
+
+nav ul li {
+    display: inline-flex;
+    justify-content: space-around;
+    padding: 10px 20px 10px 20px;
+    font-family: Open sans;
+
+}
+
+.navigation a {
+    color: black;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.articleone button {
+    width: 216px;
+    height: 41.9px;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19.07px;
+    letter-spacing: 1px;
+    background-color: #EB5757;
+    border: none;
+
+}
+
+.articleone a {
+    color: #ffffff;
+}
+
+
+.articleone button:hover {
+
+    background-color: #ffffff;
+}
+
+.articleone button a:hover {
+    color: #EB5757;
+}
+
+
+
+.articleone {
+    background-image: url('../images/galery/Fest.svg'); 
+    background-size: 170%;
+    background-position: 40%;
+}
+
+.articleone h1 {
+    margin: 0 auto;
+    font-family: "Raleway";
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 93.92px;
+    letter-spacing: 2px;
+    color: #ffffff;
+    padding-top: 300px;
+}
+
+.articleone p {
+    font-family: "Open Sans";
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 54.47px;
+    color: #ffffff;
+    text-shadow: 5px 5px 5px #00000040;
+}
+
+
+#footerone {
+    margin-top: 500px;
+    width: 100%;
+    background: #EB5757;
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 27.24px;
+    color: #ffffff;
+}
+
+
+h1 {
+    font-family: "Raleway";
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 58.7px;
+    letter-spacing: 2px;
+    color: black;
+}
+
+.atlikejai p {
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 27.24px;
+    width: 735px;
+    margin: 0 auto;
+}
+
+
+#line {
+    width: 31px;
+    height: 5px;
+    background-color: #EB5757;
+    margin-bottom: 20px;
+}
+
+.artists {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 60px 0px;
+}
+
+.artist {
+    width: 228px;
+    height: 364px;
+    border: 2px solid #FFFFFF;
+    padding: 20px 70px;
+}
+
+.artist_fotos {
+    width: 248px;
+}
+
+.artist h3 {
+    font-family: "Raleway";
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.18px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.artist p {
+    width: 206px;
+    height: 44px;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21.79px;
+    text-align: center;
+}
+
+.galerija {
+    background-color: #EB57571A;
+    align-content: center;
+}
+
+.galerija p {
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 27.24px;
+    width: 735px;
+    margin: 0 auto;
+}
+
+.fotos {
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 60px 0px;
+    margin: 0px 150px;
+}
+
+.fotos img {
+    width: 248px;
+  padding: 20px;
+}
+
+.bilietai p {
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 27.24px;
+    width: 735px;
+    margin: 0 auto;
+}
+
+.bilietas {
+    width: 407px;
+    height: 375px;
+    border: 1px solid #0000001A;
+}
+
+.bilietas h4 {
+    font-family: "Raleway";
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 25.83px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.bilietas #line {
+    width: 407px;
+    height: 2px;
+    border: 3px;
+    background-color: #0000001A;
+}
+
+.bilietas p {
+    width: 301px;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21.79px;
+}
+
+.bilietas .kaina {
+    font-family: "Raleway";
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.18px;
+    letter-spacing: 2px;
+    padding: 30px;
+}
+
+span {
+    color: #EB5757;
+}
+
+.pirkti {
+    width: 216px;
+    height: 41.9px;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19.07px;
+    letter-spacing: 1px;
+    color: #ffffff;
+    background-color: #EB5757;
+    border: none;
+}
+
+.pirkti a {
+    color: #ffffff;
+
+}
+
+.trys_bilietai {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 60px;
+}
+
+.kaip_rasti {
+    background-color: #EB57571A;
+    align-content: center;
+}
+
+
+.kaip_rasti p {
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 27.24px;
+    width: 735px;
+    margin: 0 auto;
+}
+
+#map {
+    padding: 40px;
+}
+
+.susisiekti {
+
+    background-color: #f8f8f8;
+    align-content: center;
+    justify-content: space-evenly;
+}
+
+.susisiekti p {
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 27.24px;
+    width: 735px;
+    margin: 0 auto;
+}
+
+input {
+    width: 302px;
+    height: 25px;
+    border: 0px;
+    margin-bottom: 10px;
+}
+
+#log-in-frame {
+    text-transform: uppercase;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19.07px;
+    text-align: left;
+    padding: 20px 790px;
+}
+
+
+#login_button {
+    width: 166px;
+    height: 41.9px;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19.07px;
+    letter-spacing: 1px;
+    color: #ffffff;
+    background-color: #EB5757;
+    border: none;
+
+}
+
+#login_button a {
+    color: #ffffff;
+
+}

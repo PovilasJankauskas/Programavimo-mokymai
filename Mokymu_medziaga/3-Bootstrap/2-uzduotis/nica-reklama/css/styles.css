@@ -1,0 +1,226 @@
+
+.navbar .container-fluid .navbar-brand {
+  font-family: "Roboto" Condensed;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 30.47px;
+  margin-left: 20%;
+  color: #878b9b;
+}
+
+.navbar-nav {
+  margin-left: 35%;
+}
+.navbar-light .navbar-nav .nav-link {
+  margin-right: 20px;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #43c45f;
+}
+
+header {
+  height: 800px;
+  background-image: url(../img/header_bg.svg);
+  text-align: center;
+  align-content: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+header .row .green-btn {
+width: 191px;
+height: 47px;
+border-radius: 5px;
+background: #43C45F;
+color:#ffffff;
+}
+
+header .row h1 {
+font-size: 70px;
+font-weight: 500;
+line-height: 82.03px;
+text-align: center;
+color: #ffffff;
+}
+
+header .row p { 
+font-size: 26px;
+font-weight: 400;
+line-height: 30.47px;
+text-align: center;
+margin: 50px 0px;
+color:#D5D7D8;
+}
+
+
+i { font-size: 3em;
+color: #43C45F;
+}
+.container-siulymai .row {
+padding-bottom: 30px;
+}
+
+.container-siulymai h4 {
+font-weight: 600;
+text-align: left;
+margin-top: 20px;
+}
+
+.container-siulymai p {
+width: 312px;
+height: 40px;
+font-size: 16px;
+font-weight: 400;
+line-height: 20.35px;
+text-align: left;
+color: #5f6b81;
+margin-top: 20px;
+}
+
+.container-video {
+    background-color: #f1f8ff;
+   height: 879px;
+padding-top: 90px;
+  }
+  
+  .container-video .row h2 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 46.88px;
+  }
+  
+  .container-video .row p {
+    width: 778px;
+    height: 46px;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 22.89px;
+    color: #5f6b81;
+    margin:0 auto;
+    padding-bottom: 120px;
+  padding-top: 40px;
+  }
+
+.container-statistika {
+  padding: 10% 15%;
+}
+
+.container-statistika .col h6 {
+  width: 151px;
+  height: 28px;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 27.98px;
+  margin-top: 40px;
+}
+
+.container-statistika .col p {
+  width: 672px;
+  height: 153px;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 50.88px;
+  margin: 40px 0px;
+}
+
+
+
+.row .align-items-start .col-3 h6 {
+  width: 43px;
+  height: 32px;
+  font-size: 25px;
+  font-weight: 550;
+  line-height: 31.8px;
+  text-align: left;
+}
+
+.row .align-items-start .col-3 p {
+    width: 185px;
+    height: 24px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22.89px;
+    text-align: left;
+    color: #5f6b81;
+  }
+
+.darbu-galerija {
+  height: 834px;
+  background-color: #f1f8ff;
+  padding-top: 90px;
+}
+
+
+.darbu-galerija .container h2 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 46.88px; 
+    padding: 40px 0px;
+}
+
+.darbu-galerija .container p{
+    width: 648px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22.89px;
+    margin: 0 auto;
+    padding-bottom: 60px;
+    }
+
+.darbu-galerija h3 {
+    padding: 20px 0px;
+}
+
+.darbu-galerija .col-3 p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22.89px;
+
+}
+
+.prenumerata {
+height: 490px;
+background-color:#5F6B81;
+
+}
+.prenumerata h2 {
+
+font-size: 40px;
+font-weight: 700;
+line-height: 46.88px;
+color: #ffffff;
+
+}
+.prenumerata p {
+    width: 648px;
+    color: #ffffff;
+    margin:0 auto; 
+}
+
+.prenumerata button {
+    background-color: #ffffff;
+    width: 179px;
+height: 63px;
+border-radius: 0px 5px 5px 0px;
+}
+
+.prenumerata button:hover {
+    background: #43C45F;
+
+}
+
+
+.komanda {
+  padding: 10% 15%;
+}
+.geriausia-komanda img {
+    width: 312px;
+height: 392px;
+}
+.card-body {
+    background-color: #EEEEEE;
+
+}
+.card-body h5 {font-size: 22px;
+    font-weight: 700;
+    line-height: 25.78px;
+    }

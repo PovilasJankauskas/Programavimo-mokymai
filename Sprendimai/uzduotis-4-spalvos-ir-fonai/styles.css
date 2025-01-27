@@ -1,0 +1,30 @@
+#first-article-container {
+    background-image: url('sky.jpg');
+}
+
+#second-article-container {
+    background-image: url('mountain.jpg');
+}
+
+#third-article-container {
+    background-image: url('ocean.jpg');
+}
+
+#first-article-container .article-header {
+    color: #ffffff;
+    background-color: rgba(56, 86, 101, 0.3)
+}
+
+#second-article-container .article-header {
+    color: #ffffff;
+    background-color: rgba(60, 72, 78, 0.3)
+}
+
+#third-article-container .article-header {
+    color: #ffffff;
+    background-color: rgba(111, 108, 107, 0.3)
+}
+
+p {
+    background-color: rgba(255, 255, 255, 0.3)
+}

@@ -1,0 +1,39 @@
+@media screen and (min-width: 768px) and (max-width: 1080px){
+    header .row .green-btn {
+        width: 191px;
+        background: #43C45F;
+        color: #ffffff;
+    }
+    
+    header .row h1 {
+        width: 720px;
+        height: 164px;
+        font-size: 70px;
+        font-weight: 500;
+        line-height: 82px;
+        color: #ffffff
+    
+    }
+    
+    header .row p {
+        width: 554px; 
+        font-size: 26px;
+        font-weight: 400;
+        line-height: 30.47px;
+        text-align: center;
+        color: rgba(213, 215, 216, 1);
+        margin: 50px 0px 100px 70px;
+    }
+
+/*video*/
+.video .video-col .video-wrapper iframe {
+   
+    height: 400px
+}
+
+/*komanda*/
+.card {
+    margin-bottom: 60px;
+}
+}
+

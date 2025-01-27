@@ -1,0 +1,70 @@
+@media screen and (min-width: 768px) and (max-width: 1080px) {
+  h2 {
+    padding-top: 20px;
+    font-size: 40px;
+  }
+  .navbar-brand {
+    padding: unset;
+  }
+  .lease-plans .container {
+    height: calc(100vh - 300px);
+  }
+  .lease-plans .container {
+    align-content: flex-end;
+  }
+  .lease-plans .container p {
+    font-size: 40px;
+    text-align: center;
+  }
+
+  .bike-plans p {
+    padding: 40px 50px 40px 1px;
+  }
+  .service-section .container {
+    height: calc(100vh - 300px);
+    width: 100%;
+    align-content: flex-end;
+    padding-bottom: 20px;
+  }
+
+  .how-it-works {
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  #carouselExample-2 {
+    margin-top: 20px;
+  }
+  .get-in-touch .form-control::placeholder {
+    color: black;
+  }
+  .get-in-touch h2 {
+    margin: unset;
+  }
+  .banner .container {
+    background-color: #404243;
+    color: #ffffff;
+    padding: 40px 140px;
+  }
+  footer .container .row {
+    display: flex;
+    text-align: center;
+  }
+  footer p {
+    font-size: 14px;
+    padding: 0px;
+  }
+  .form-check .form-check-input {
+    float: none;
+  }
+  .how-it-works .row .section-header p {
+    color: #1416155b;
+    margin: unset;
+  }
+  .how-it-works .row {
+    justify-content: center;
+  }
+  .banner .container button {
+    margin-top: 40px;
+  }
+}

@@ -1,0 +1,258 @@
+#page_container {
+  width: 1920px;
+  margin: 0 auto;
+}
+
+.navigation {
+  width: 100%;
+  height: 108px;
+  display: inline-flex;
+  background-color: #ffffff;
+  justify-content: space-around;
+}
+
+.navigation p {
+  width: 836px;
+  height: 48px;
+  font-family: "Poppins";
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: left;
+  padding-left: 140px;
+}
+span {
+  font-family: "Poppins";
+  font-size: 24px;
+  font-weight: 700;
+  text-align: left;
+  color: #e99445;
+}
+
+nav {
+  width: 580px;
+  height: 30px;
+}
+nav ul li {
+  width: 120px;
+  display: inline-flex;
+  justify-content: space-evenly;
+  font-family: "inter";
+  border-radius: 15px;
+  border-style: none;
+  margin-top: 20px;
+}
+
+nav ul li:hover {
+  background-color: #e7852b;
+  color: #ffffff;
+}
+li a {
+  text-decoration: none;
+}
+.welcome_page {
+  display: flex;
+}
+.got_broken {
+  width:70%;
+  margin: 60px 60px 40px 260px;
+}
+.welcome_page img {
+  width: 100%;
+  height: 100%;
+}
+h1 {
+  width: 516px;
+  height: 180px;
+  font-family: "Poppins";
+  font-size: 62px;
+  font-weight: 600;
+  line-height: 80.2px;
+}
+.got_broken p {
+  font-family: "Poppins";
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 28px;
+  color: #e99445;
+  margin: 0 auto;
+  padding-bottom: 30px;
+}
+button {
+  border-radius: 4px;
+  background: #fefefe;
+  border: 2px solid #000000;
+  margin-right: 5px;
+}
+#to_auto_grid {
+  width: 199px;
+  height: 49px;
+  font-family: "Inter";
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 16.94px;
+  text-align: center;
+}
+#to_contact_us {
+  width: 130px;
+  height: 49px;
+  padding: 14px 32px 16px 32px;
+  font-family: "Inter";
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 16.94px;
+  text-align: center;
+}
+
+button:hover {
+  background-color: #e99445;
+  color: #ffffff;
+}
+
+#banner {
+  width: 100%;
+  height: 95px;
+  background-color: #e99445;
+  color: white;
+  padding: 10px 260px;
+
+}
+#banner p {
+  width: 1420px;
+  height: 48px;
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: left;
+}
+
+h2 {
+  width: 960px;
+  height: 53px;
+  font-family: "Poppins";
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 52.8px;
+  padding: 60px 0px 100px 270px;
+ 
+}
+.autogrid {
+  width: 1320px;
+  height: 1113px;
+}
+  .auto_rent {
+    background-color: #fafafa;
+  }
+
+.get_car {
+  width: 444px;
+  height: 544px;
+  padding: 80px 30px 80px 30px;
+  border-radius: 16px;
+  box-shadow: 4px 4px 5px 4px #00000026;
+  border: 1px;
+  margin: 20px;
+}
+
+h3 {
+  width: 364px;
+  height: 40px;
+  font-family: Poppins;
+  font-size: 31.25px;
+  font-weight: 600;
+  line-height: 40px;
+  text-align: left;
+}
+.auto_grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.get_car p {
+  width: 364px;
+  height: 46px;
+  padding: 8px 32px 8px 32px;
+  border: 0px;
+  border-radius: 8px;
+  background-color: #f4caa4;
+  font-family: "Poppins";
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: left;
+}
+.get_car span {
+  font-family: "Poppins";
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 30px;
+  text-align: left;
+  color: #000000;
+}
+
+.get_car button {
+  width: 160px;
+  height: 51px;
+  padding: 16px 48px 16px 48px;
+  border-radius: 4px;
+  font-family: "Inter";
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 19.36px;
+  text-decoration: none;
+  margin: 20px 10px;
+}
+.get_car button a{
+  text-decoration: none;
+}
+footer {
+  display: inline-flex;
+  justify-content: space-evenly;
+    width: 100%;
+    height:80%;
+}
+#line {
+    width: 1920px;
+height: 0px;
+top: 1.91px;
+border: 1px ;
+border: 1px solid #F6F6F6;
+
+}
+#description {
+  width: 516px;
+  height: 96px;
+  font-family: 'Montserrat';
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #777777;
+
+}
+#links {
+  width:182px;
+height:146px;
+
+}
+ul {
+  width: 79px;
+height: 24px;
+font-family: 'Poppins';
+font-size: 16px;
+font-weight: 600;
+line-height: 24px;
+text-align: left;
+}
+ul li {
+  width: 162px;
+height: 24px;
+font-family: 'Montserrat';
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+text-align: left;
+color: #777777;
+
+}

@@ -1,0 +1,18 @@
+body { 
+    background-color: rgb(188, 186, 186);
+}
+h1 {
+    background-color: black; color: white;
+}
+h2 {
+    background-color: rgb(96, 11, 254); color: white;
+}
+.paslauga {
+    background-color: white;
+}
+.apie-mus {
+    background-color: white;
+}
+a {
+    color: red;
+}

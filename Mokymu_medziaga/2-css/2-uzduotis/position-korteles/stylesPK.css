@@ -1,0 +1,99 @@
+.list {
+    width: 100vh;
+    height: 2363px;
+    position: relative;
+    top: 0;
+    left: 30%;
+
+}
+
+.div-size {
+    width: 796px;
+    height: 473px;
+    position: relative;
+
+}
+
+.one {
+    background-color: #ffffff;
+    display: flex;
+}
+
+.two {
+    background-color: #51cb65;
+    display: flex;
+}
+
+.three {
+    background-color: #816ef5;
+    display: flex;
+}
+
+.four {
+    background-color: #ea7b7b;
+    display: flex;
+}
+
+.five {
+    background-color: #d9d9d9;
+    color: red;
+    display: flex;
+}
+
+p {
+    width: 78px;
+    height: 128px;
+    top: 172px;
+    left: 359px;
+    font-family: Inter;
+    font-size: 128px;
+    font-weight: 400;
+    line-height: 128px;
+    letter-spacing: 0.20000000298023224px;
+    position: absolute;
+    top: 0;
+
+
+}
+
+.navigation {
+    position: fixed;
+    bottom: 100px;
+    width: 505px;
+    height: 58px;
+    border-radius: 16px;
+    background-color: #F5F3F3;
+}
+
+.arrow {
+    border-radius: 12px;
+    border: 2px;
+    border: 2px solid #F17965;
+    position: fixed;
+    bottom: 50px;
+    right: 30px;
+}
+
+
+a {
+    width: 93px;
+    height: 42px;
+    padding: 8px 16px 8px 16px;
+    gap: 8px;
+    border-radius: 12px;
+    border: 2px;
+    border: 2px solid #F17965;
+}
+
+.navigation nav ul li {
+    list-style: none;
+    border-radius: 10px;
+    border: 1px black;
+}
+.navigation nav ul {
+    display: flex;
+   
+    padding-bottom: 30px;
+
+
+}

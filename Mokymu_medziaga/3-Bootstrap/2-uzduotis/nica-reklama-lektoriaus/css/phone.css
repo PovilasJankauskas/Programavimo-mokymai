@@ -1,0 +1,140 @@
+@media screen and (max-width: 768px) {
+section {
+    padding:unset;
+}
+    header .row .green-btn {
+        width: 191px;
+        background: #43C45F;
+        color: #ffffff;
+    }
+
+    header .row h1 {
+        width: 343px;
+        font-size: 54px;
+        font-weight: 500;
+        line-height: 63.28px;
+        text-align: center;
+        color: #ffffff
+    }
+
+    header .row p {
+        width: 343px;
+        height: 90px;
+        top: 498px;
+        left: 16px;
+        font-size: 26px;
+        font-weight: 400;
+        line-height: 30.47px;
+        text-align: center;
+        color: rgba(213, 215, 216, 1);
+
+    }
+
+    /*general info*/
+    .general-info-first .info-block {
+        margin-top: unset;
+        text-align: center;
+    }
+
+
+
+    .general-info-first .text-col h3 {
+        font-weight: 500;
+        text-align: center;
+        margin: 18px 0 10px;
+    }
+
+    .general-info-first .text-col p {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 20.35px;
+        text-align: center;
+        color: #5F6B81;
+        margin-bottom: 40px;
+    }
+
+    /*video*/
+    .video .video-col .video-wrapper iframe {
+height: 150px
+    }
+    section .section-header h2 {
+        font-size: 34px;
+        font-weight: 700;
+        line-height: 40px;
+        margin-bottom: 25px;
+        color: #404445;
+      }
+    /*musu statistika*/
+    .general-info-second .first p:last-child {
+        font-size: 35px;
+    }
+ 
+    /*prenumerata*/
+    .prenumerata .input-group {
+        max-width: 540px;
+        margin: unset;
+        padding-bottom: 80px;
+      }
+
+      .input-group {
+        position: relative;
+        display: unset;
+        flex-wrap: wrap;
+        align-items: stretch;
+        width: 100%;
+      }
+      .prenumerata p {
+        width: 648px;
+        color: #ffffff;
+        margin: 0 auto;
+        padding: unset;
+      }
+.prenumerata .input-group input {
+        width: 100%;
+       margin: 40px 0px 15px 0px;
+}
+.input-group .btn {
+    margin-bottom: 15px;
+    background-color: #43C45F;
+    border-radius: 5px;
+  }
+ 
+
+      /*galerija*/
+
+.darbu-galerija .container p {
+        padding-bottom: 60px;
+      }
+    /*komanda*/
+    .card {
+        width: unset;
+        padding-bottom: 60px;
+    }
+
+    section {
+        padding-top: 60px;
+    }
+
+    /*kontaktai*/
+.contact-info .row .green-btn {
+margin-bottom: 50px;
+}
+
+footer {
+    text-align: center;
+}
+footer .row:first-child div:first-child h3 {
+    text-align: center;
+  }
+
+  footer .row:first-child div:first-child p {
+    margin: 20px 0px;
+  }
+  footer p {
+    margin-bottom: 10px;
+}
+footer h5 {
+    margin: 20px 0px;
+}
+}
+

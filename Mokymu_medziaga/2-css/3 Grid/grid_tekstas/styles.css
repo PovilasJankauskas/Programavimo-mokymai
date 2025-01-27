@@ -1,0 +1,31 @@
+.header {
+  background-color: #676767;
+  grid-area: h;
+
+}
+.sidebar {
+  background-color: #333333;
+  grid-area: s;
+}
+.content {
+  background-color: #333333;
+  grid-area: c;
+}
+.sidebar2 {
+  background-color: #c1c1c1;
+  grid-area: s2;
+}
+.footer {
+  background-color: #676767;
+  grid-area: f;
+ 
+}
+.grid_container {
+  display: grid;
+  grid-gap: 10px;
+  grid-template: 50px 120px 50px/ repeat(4, 1fr);
+  grid-template-areas:
+    "h h h h"
+    "s c c s2"
+    "f f f f";
+}

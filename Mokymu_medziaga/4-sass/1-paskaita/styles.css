@@ -1,0 +1,19 @@
+body {
+  font: 100% helvetica, sans-serif;
+  color: green;
+}
+
+nav ul {
+  margin: 0;
+}
+nav ul li {
+  color: red;
+}
+nav li {
+  display: block;
+}
+nav a {
+  display: block;
+  padding: 6px 12px;
+  text-decoration: none;
+}

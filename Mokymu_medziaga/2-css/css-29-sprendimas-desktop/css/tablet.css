@@ -1,0 +1,61 @@
+@media screen and (max-width: 788px) and (min-width: 376px) {
+  nav .title {
+    padding-left: 2%;
+  }
+  nav .container ul {
+    gap: 10px;
+    padding-right: 3%;
+  }
+
+  header .container {
+    flex-direction: column-reverse;
+  }
+  header .container .info-part {
+    width: 100%;
+    justify-content: center;
+    padding: 80px 40px;
+  }
+  header .container .welcome-img {
+    width: 100%;
+  }
+
+  section .container .title {
+    padding-left: 5%;
+  }
+  section .container .title h3 {
+    font-size: 44px;
+  }
+
+  section .card {
+    width: calc((100% - 2 * 24px) / 2);
+  }
+  section .container .card-s {
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+
+  section .card .price {
+    padding: unset;
+    background-color: #ffffff;
+  }
+
+  section .card .button-s {
+    flex-direction: column;
+  }
+  section .card button {
+    width: 100%;
+    max-width: unset;
+    height: 50px;
+  }
+
+  footer .container .info {
+    flex-wrap: wrap;
+  }
+  footer .container .info .bracckets1{
+    width: 100%;
+  }
+  footer .container .info .bracckets2
+  footer .container .info .bracckets3{
+    width: 45%;
+  }
+}

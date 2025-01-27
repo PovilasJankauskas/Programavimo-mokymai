@@ -1,0 +1,51 @@
+.lineone,
+.linetwo,
+.linefour {
+    display: flex;
+    height: 400px;
+    padding: 10px;
+
+}
+
+.linethree,
+.linefive {
+    display: flex;
+    height: 300px;
+    padding: 10px;
+
+}
+
+
+.lineone {
+    background-color: #ffa500;
+
+}
+
+.linetwo {
+    background-color: #8fbc8f;
+    justify-content: flex-end;
+
+}
+
+.linethree {
+    background-color: #ff8c00;
+    align-items: center;
+    
+}
+
+.linefour {
+    background-color: #00ced1;
+    align-items: center;
+    justify-content: center;
+}
+
+.linefive {
+    background-color: #dc143c;
+    align-items: end;
+    justify-content: end;
+}
+
+p {
+    background-color: #ffffff;
+    width: 400px;
+}

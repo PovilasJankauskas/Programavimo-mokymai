@@ -1,0 +1,21 @@
+body {
+    background-color: #e7e7e7;
+}
+
+.main-header {
+    color: #ffffff;
+    background-color: #000000;
+}
+
+.secondary-header {
+    color: #ffffff;
+    background-color: #6495ed;
+}
+
+.article-container {
+    background-color: #ffffff;
+}
+
+.article-container .article-link {
+    color: #f40606;
+}

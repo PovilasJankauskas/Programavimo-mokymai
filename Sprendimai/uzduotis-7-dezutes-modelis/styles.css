@@ -1,0 +1,38 @@
+body {
+    background-color: #9490fb;
+}
+
+div {
+    background-color: #c1a2e3;
+    max-width: 80%;
+    margin: 5em auto;
+}
+
+#pirmas {
+    border: 12px solid 05008a;
+    box-shadow: 5px 5px 15px black;
+}
+
+#antras {
+    border-radius: 150px;
+    padding: 5em;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
+}
+
+#trecias {
+    padding: 5em 0;
+    border-bottom: 10px solid #302f42;
+    border-right: 15px dashed #7015d4;
+}
+
+#ketvirtas {
+    padding: 0 5em 1em;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 50px;
+}
+
+#penktas {
+    padding: 0 0 5em 0;
+    border-left: 10px dashed #7900fe;
+}
+

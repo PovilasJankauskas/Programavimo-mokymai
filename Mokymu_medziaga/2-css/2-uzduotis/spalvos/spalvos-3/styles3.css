@@ -1,0 +1,28 @@
+h2 {
+    background-color: #6dd58c;
+}
+#first {
+    background-color: rgb(206,234,214);
+}
+#second {
+    background-color: blue;
+}
+#li-third    {background-color: black; color: red;
+}
+
+#li-fifth {
+    background-color: black; color: red;
+}
+
+#li-second {
+    background-color: black; color: red;
+}
+#li-six {
+    background-color: black; color: red;
+}
+#li-eight {
+    background-color: black; color: red;
+}
+.div-first {
+    background-image: url("/Mokymu_medziaga/2-css/2-uzduotis/Kaimo_parduotuve/images/Rectangle_4.png");
+}

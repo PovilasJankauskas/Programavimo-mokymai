@@ -1,0 +1,47 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+ul {
+    padding: 0% 20% 0% 20%;
+    text-align: center;
+   
+}
+
+li {
+    display: inline;
+    padding: 0% 0% 0% 10%;    
+}
+
+main {
+    background-image: url("Images/Giants-Causeway1.jpg");
+    width: 1920px;
+    height: 720px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#description {
+    background-color: black;
+    width: 500px;
+    height: 90px;
+    margin: 0px 100px 0px 900px;
+    position:absolute;
+    top: 300px;
+    text-align: center;
+    border-radius: 10px;
+  
+}
+
+footer {
+    width: 420px;
+    height: 120px;
+    text-align: center;
+    margin: 0 auto;
+}

@@ -1,0 +1,32 @@
+body {
+    background: linear-gradient(180deg, #58F6EC 0%, #FBEDDD 64.58%);
+    background-attachment: fixed;
+}
+
+.news-container {
+    background-color: #ffffff;
+    width: 500px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 10px;
+    margin-bottom: 20px;
+    box-shadow: 5px 4px 16px 0px #331C0026;
+}
+
+h2 {
+    font-family: 'Poppins';
+    font-size: 24px;
+    font-weight: 700;
+}
+
+button {
+    padding: 5px;
+    border: none;
+    background-color: #FCCB92;
+}
+
+p, button {
+    font-weight: 400;
+    font-size: 12px;
+    font-family: 'Inter';
+}

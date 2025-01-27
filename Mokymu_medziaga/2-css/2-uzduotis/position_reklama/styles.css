@@ -1,0 +1,101 @@
+main {
+    width: 796px;
+    height: 567px;
+    margin-left: 300px;
+    background-color: #131417;
+    position: relative;
+}
+
+.inside_body {
+    width: 675px;
+    height: 355px;
+    top: 106px;
+    left: 66px;
+    background-color: #222225B2;
+    position: relative;
+}
+
+h1 {
+    width: 531px;
+    height: 96px;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 48px;
+    letter-spacing: 0.41999998688697815px;
+    text-align: left;
+    color: #FFFFFF;
+
+
+}
+
+p {
+    width: 525px;
+    height: 52px;
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+    color: #FFFFFF;
+
+}
+
+button {
+    width: 100px;
+    height: 26px;
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: -0.05em;
+    text-align: left;
+    color: #F17965;
+    background-color: #131417;
+
+    width: 154px;
+    height: 42px;
+    padding: 8px 16px 8px 16px;
+    gap: 8px;
+    border-radius: 12px;
+    border: 2px;
+    border: 2px solid #F17965
+
+}
+
+
+
+#megaphone {
+    width: 125px;
+    height: 125px;
+    position: absolute;
+    top: 1px;
+    left: 1px;
+    transform: rotate(5deg);
+
+}
+
+#star {
+    width: 160px;
+    height: 167px;
+    top: 314px;
+    left: 608px;
+    position: absolute
+}
+
+#ellipse1 {
+    width: 62px;
+    height: 62px;
+    top: 369px;
+    left: 698px;
+    position: absolute;
+
+}
+
+#ellipse2 {
+    width: 114px;
+    height: 114px;
+    top: 392px;
+    left: 634px;
+   position: absolute;
+}

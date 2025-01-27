@@ -1,0 +1,22 @@
+.div-first{
+    background-image: url("gniuzte.jpg"); background-size: cover; background-attachment: fixed;
+}
+.div-second {
+    background: linear-gradient(90deg, #829da8 0%, #b4bec3 65%);
+background-attachment: fixed;
+}
+.div-third {
+    background-image: url("kelias.jpg"); background-size: cover; background-attachment: fixed;
+}
+#id-1d {
+    background-color:#355565; color: white;
+}
+#id-2d {
+    background-color: #9aa0a6 ; color: white
+}
+#id-3d {
+    background-color: #5f6771 ; color: white
+}
+p {
+    background-color: rgb(219, 214, 214);
+}

@@ -1,0 +1,66 @@
+body {
+    background-color: rgb(231, 231, 161);
+}
+#id-d1 {
+    background-color: bisque;
+    max-width: 80%;
+    margin-top: 5em;
+    margin-left: auto;
+    margin-right: auto;
+    border: 12px;
+    border-style: solid;
+    border-color: blue;
+    box-shadow: 5px 5px 15px black;
+}
+#id-d2 {
+    background-color: rgb(115, 172, 116);
+    max-width: 80%;
+    margin-top: 5em;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5em;
+    border: 5px;
+    border-style: solid;
+    border-color: rgb(113, 66, 39);
+    border-radius: 150px;
+    box-shadow: 5px 5px 50px rgba(0, 0, 0, 0.5);
+}
+#id-d3 {
+    background-color: rgb(223, 153, 176);
+    max-width: 80%;
+    margin-top: 5em;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5em 0;
+    border-bottom: 10px solid red;
+    border-right: 15px dashed rgb(10, 23, 10);
+}
+
+#id-d4 {
+    background-color: rgb(196, 194, 235);
+    max-width: 80%;
+    margin-top: 5em;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 0;
+    padding-left: 5em;
+    padding-right: 5em;
+    padding-bottom: 1em;
+    border: 12px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 50px;
+  
+}
+#id-d5 {
+    background-color: rgb(210, 141, 141);
+    max-width: 80%;
+    margin-top: 5em;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 0;
+    padding-left: 0em;
+    padding-right: 0em;
+    padding-bottom: 5em;
+    border-left: 10px dashed red;
+}
+

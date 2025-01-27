@@ -1,0 +1,90 @@
+@media screen and (max-width: 375px) {
+
+    nav .container {
+        flex-wrap: wrap;
+        justify-content: center;
+        
+    }
+    nav .container .title {
+        padding-left: unset;
+    }
+nav ul {
+    gap:24px;
+    padding-right: unset;
+    padding-top:30px;
+}
+nav .title h3 {
+    text-align: center;
+}
+header .container {
+    flex-direction: column-reverse;
+  }
+  header .welcome-img {
+    width:100%;
+    height:100%;
+  background: url('../img/welcome-img.png');
+  background-size: 150% ;
+  background-position:left center ;
+  }
+  
+  header .info-part {
+    padding-bottom: 60px;
+    padding-left:7%;
+  }
+  header h1 {
+    font-size: 45px;
+    line-height: unset;
+  }
+  header p {
+    font-size: 20px;
+  }
+  header .buttons {
+    flex-direction: column;
+    width: 320px;
+    
+  }
+ 
+  header .first {
+    width: 100%;
+
+  }
+  section .container .title h3 {
+    font-size: 34px;
+  }
+  section .card {
+    width: calc((100% - 2 * 24px));
+height:603px;
+justify-content: space-evenly;
+
+
+  }
+  section .container .card-s {
+    padding-left: unset;
+    padding-right: unset;
+  }
+
+  section .card .price {
+    padding: unset;
+    background-color: #ffffff;
+  }
+
+  section .card .button-s {
+    flex-direction: column;
+  }
+  section .card button {
+    width: 100%;
+    max-width: unset;
+    height: 50px;
+  }
+  footer .container .info {
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding-left: 7%;
+    padding-right: 7%;
+  }
+  footer .container .info .brackets1{
+    width: unset;
+  }
+
+
+}

@@ -1,0 +1,68 @@
+body {
+    background: #f2e9d8;
+    font-family: 'Open Sans', sans-serif;
+}
+h1,h2,h3,h4 {
+    color: rgba(0,0,0,0.2);
+     font-weight: 700;
+      transition: uppercase;
+       text-align: center;
+       font-size: 3em;
+}
+table {
+    background-image: url(paveiksliukai/pexels-photo-196667.jpeg) ; background-size: cover; background-attachment: fixed;
+text-align: center;
+font-size: 1.8em;
+width: 500px;
+height:200px ;
+}
+.td-background-color {
+    background-color: rgba(255, 255, 255, 0.6);
+}
+.td-color-windows {
+    background-color: rgba(0, 0, 0, 0.6); color: white;
+}
+#id-first-paragraph {
+    color: grey;
+    font-size: 1.5em;
+    text-align: right;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+}
+.a-text-color {
+    color: #ed0a3f;
+    font-weight: 300;
+    text-decoration: none;
+}
+a:hover {
+    color: #2d383a;
+}
+h2 {
+    color: #ed0a3f
+}
+
+p {
+    text-align: justify;
+}
+li {
+    text-transform: lowercase;
+}
+img {
+    block-size: 200px;
+}
+table,td {
+    border: 2px solid red;
+    border-collapse: collapse;
+}
+#id-first-table td { 
+    vertical-align: top;
+    }
+ul li {
+    list-style-type: square;
+}
+ol li {
+    list-style-type: upper-roman;
+}
+.li-list-element {
+    list-style-type: none; border-bottom: 2px solid silver;
+}

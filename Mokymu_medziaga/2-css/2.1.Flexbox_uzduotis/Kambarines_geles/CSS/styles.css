@@ -1,0 +1,137 @@
+body {
+    width: 1570px;
+    height: auto;
+    
+}
+h1 {
+    font-family: 'Poppins';
+font-size: 72px;
+font-weight: 700;
+line-height: 108px;
+
+
+
+}
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin:0;
+
+}
+.geles {
+width:376px;
+height:669px;
+border-radius: 16px;
+border: 1px solid #84AD40;
+box-shadow: 0px 2px 6px 0px #00000026;
+
+}
+
+img{
+    border-radius: 16px 16px 0px 0px;
+}
+h2 {
+    font-family: 'Inter';
+font-size: 24px;
+font-weight: 700;
+line-height: 29.05px;
+padding: 10px;
+
+}
+footer {
+display: flex;
+}
+p {
+    font-family: 'Inter';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    padding: 10px;
+    
+}
+
+h6 {
+    font-family: 'Inter';
+font-size: 14px;
+font-weight: 400;
+line-height: 16.94px;
+color: #7D9458;
+margin: 0 auto;
+padding-left: 10px;
+}
+
+.vazono_spalvos {
+    width: 65%;
+}
+button {
+    width: 30%;
+height: 41px;
+padding: 12px 32px 12px 32px;
+border-radius: 4px;
+color: #7D9458;
+background-color: #ffffff;
+display: inline-block;
+
+
+}
+button:hover {
+    padding: 12px 32px 12px 32px;
+    border-radius: 4px;
+    color: #ffffff;
+    background-color: #7D9458;;
+}
+
+.spalvos {
+    width: 50%;
+    display: inline-block;
+    padding:10px;
+
+}
+.burbuliukas_vienas {
+    width: 16px;
+    height: 16px;
+    border-radius: 50px;
+    background-color: #39362E;
+    display: inline-flex;
+}
+.burbuliukas_du {
+    width: 16px;
+    height: 16px;
+    border-radius: 50px;
+    background-color: #F3A195;
+    display: inline-block;
+}
+.burbuliukas_trys {
+    width: 16px;
+    height: 16px;
+    border-radius: 50px;
+    background-color: #EFEAE6;
+    display: inline-block;
+}
+.burbuliukas_keturi {
+    width: 16px;
+height: 16px;
+border-radius: 50px;
+    background: #C38364;
+display: inline-block;
+}
+
+@media screen and (max-width:788) and (min-width:376)
+{
+    /*Tablet*/
+
+}
+@media screen and (max-width:375)
+{ /* PHONE*/
+.geles {
+    flex-wrap: wrap;
+    
+}    
+button {
+    width: 100%;
+    margin-left: 1px;
+}
+
+}
+

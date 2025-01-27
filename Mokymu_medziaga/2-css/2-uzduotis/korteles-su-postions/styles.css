@@ -1,0 +1,105 @@
+body {
+    position: relative;
+    left: 400px;
+
+}
+
+main {
+    width: 527px;
+    height: 1326px;
+    padding: 90px 115px 137px 136px;
+    background: #E2E1E1;
+    position: relative;
+  
+}
+
+.all-cards {
+    width: 276px;
+    height: 345px;
+    padding-left: 100px;
+}
+.cards:hover {
+    color: red;
+}
+.cards {
+    border-radius: 12px;
+    box-shadow: 0px 2px 4px 0px #60617029;
+    background: #FFFFFF;
+    position: relative;
+  
+    
+}
+
+img {
+    border-radius: 12px 12px 0px 0px;
+}
+
+time {
+    width: 56px;
+    height: 56px;
+    top: 148px;
+    left: 204px;
+    border-radius: 12px;
+    box-shadow: 0px 1px 4px 0px #60617029;
+    background-color: #FFFFFF;
+    position: absolute;
+    text-align: center;
+   
+}
+
+.button {
+    width: 32px;
+    height: 32px;
+    border-radius: 200px;
+    border: 1px solid #959393;
+
+}
+
+h4 {
+    width: 88px;
+    height: 22px;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+    color: #959393;
+    padding-left: 10px;
+
+}
+
+p {
+    width: 250px;
+    height: 48px;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+    padding-left: 10px;
+
+}
+
+#day {
+    width: 38px;
+    height: 28px;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 24px;
+
+
+
+}
+
+#month {
+    width: 23px;
+    height: 22px;
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.20000000298023224px;
+
+}

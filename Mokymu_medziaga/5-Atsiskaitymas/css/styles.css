@@ -1,0 +1,352 @@
+/*General*/
+* {
+  font-family: "Helvetica", sans-serif;
+}
+h2 {
+  font-size: 50px;
+}
+p {
+  font: 14px;
+}
+.container {
+  align-content: center;
+}
+/*navbar*/
+
+.navbar-brand {
+  padding: 0px 43px;
+}
+
+.controls-margin {
+  display: flex;
+  flex-wrap: wrap;
+}
+.controls-margin button {
+  display: flex;
+  align-items: center;
+  width: 69px;
+  height: 55px;
+  padding-left: 15px;
+  background: none;
+  border: none;
+}
+.controls-margin button {
+  width: 62px;
+  height: 46px;
+}
+/*First section*/
+
+.lease-plans .container {
+  height: calc(100vh + 300px);
+  background: url("../img/lease-plan-bg.svg") center no-repeat;
+  background-size: cover;
+}
+
+.lease-plans .row h5 {
+  font-size: 15px;
+  color: #ffffff;
+}
+.lease-plans .row p {
+  font-size: 70px;
+  color: #ffffff;
+}
+
+/*second and fourth sections*/
+
+.bike-plans {
+  padding: 90px 43px;
+}
+.bike-plans-row {
+  display: flex;
+  justify-content: space-around;
+}
+
+.bike-plans .section-header {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  padding-left: 60px;
+}
+
+.bike-plans p {
+  padding: 40px 0px;
+}
+
+.bike-plans .btn-link {
+  text-decoration: none;
+  color: black;
+}
+
+/*third section*/
+
+.service-section .container {
+  height: 100vh;
+  width: 100%;
+  background: url("../img/service_background.svg") center no-repeat;
+  background-size: cover;
+}
+
+.service-section .row {
+  color: #ffffff;
+  padding-left: 65px;
+}
+
+.service-section .row p {
+  line-height: 21px;
+  padding-top: 20px;
+}
+
+/*fifth section*/
+
+.how-it-works .row .section-header p {
+  color: #1416155b;
+  margin: 5px 140px 5px 0px;
+}
+.how-it-works .container .row .section-header ul {
+  list-style-image: url("../img/list-dot.svg");
+}
+
+.how-it-works h3 {
+  padding: 20px 0px 15px 10px;
+}
+
+.how-it-works {
+  margin: 90px 127px;
+}
+/*carousel*/
+.bike-menu .container {
+  padding: 120px 0px;
+}
+.bike-menu .row {
+  display: flex;
+  justify-content: center;
+}
+#carouselExample,
+#carouselExample-2 {
+  background-color: #ebedee;
+  border-radius: 1%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.bike-description {
+  display: flex;
+  padding-top: 10px;
+  padding-left: 10px;
+  justify-content: space-between;
+}
+.h3-header {
+  display: flex;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+.h3-header p {
+  font-size: 8px;
+  padding-left: 10px;
+}
+#price {
+  padding: 15px 10px 0px 0px;
+}
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  background-color: black;
+}
+
+.carousel-indicators [data-bs-target] {
+  background-clip: unset !important;
+  border-radius: 50px;
+  width: 30px;
+  height: 12px;
+}
+.carousel-indicators .bg-color {
+  background-color: #000000;
+}
+.carousel-indicators .bg-color-2 {
+  background-color: #000000af;
+}
+.carousel-indicators .bg-color-3 {
+  background-color: #ddd9cd;
+}
+
+.carousel-indicators .bg-color-4 {
+  background-image: linear-gradient(#efe1cb, #f3f0ec);
+}
+#carouselExample-2 .carousel-indicators .bg-color {
+  background-color: #000000;
+}
+#carouselExample-2 .carousel-indicators .bg-color-2 {
+  background-color: #000000;
+}
+#carouselExample-2 .carousel-indicators .bg-color-3 {
+  background-color: #ddd9cd;
+}
+#carouselExample-2 .carousel-indicators .bg-colo-4 {
+  background-image: linear-gradient(#efe1cb, #f3f0ec);
+}
+
+#carouselExample-2,
+#carouselExample {
+  margin-top: 20px;
+}
+/*get in touch*/
+
+.get-in-touch .row {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+}
+.get-in-touch h2 {
+  margin: 60px 0px;
+}
+.get-in-touch input {
+  margin: 15px 0px;
+  color: #0e2029cf;
+  border-radius: unset;
+}
+
+.get-in-touch textarea {
+  margin: 15px 0px;
+  color: #0e2029cf;
+  border-radius: unset;
+}
+
+.get-in-touch .form-select {
+  border-color: #0e202926;
+  border-width: 1px;
+  margin: 15px 0px;
+  text-align: left;
+  font-size: 20px;
+  color: #0e2029cf;
+  border-radius: unset;
+}
+.get-in-touch .submit input {
+  width: 100%;
+  border: unset;
+  height: 48px;
+  color: #ffffff;
+  border-radius: 25px;
+  background-color: #898a8a;
+}
+.get-in-touch .form-control::placeholder {
+  opacity: 1;
+  color: black;
+}
+/*Questions*/
+.section-line {
+  border: 1px solid #d8d8d8;
+}
+.questions .container .row {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  margin: 60px 0px;
+}
+.questions h1 {
+  font-size: 120px;
+  margin: 0 auto;
+  padding-bottom: 90px;
+}
+
+.questions .accordion-body {
+  padding-top: 20px;
+  text-align: start;
+  color: rgba(0, 0, 0, 0.614);
+}
+.accordion-button::after {
+  content: "+";
+}
+
+/*banner*/
+.banner .container {
+  background-color: #404243;
+  color: #ffffff;
+  padding: 40px 240px;
+  align-items: center;
+}
+
+.banner .container button {
+  width: 200px;
+  height: 50px;
+  background-color: #ffffff;
+  color: #404243;
+  border-radius: 25px;
+}
+/*footer*/
+footer .container .row {
+  background-color: #141615;
+  color: #ffffff;
+  padding: 60px 20px;
+}
+
+footer p {
+  font-size: 14px;
+  padding: 20px 0px;
+}
+footer ul li {
+  font-size: 14px;
+}
+.list-group-flush {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+footer {
+  border: 1px solid color #ffffff;
+}
+
+footer .input-group .form-control {
+  background-color: #141615;
+  color: #f5eeee;
+}
+
+footer .input-group #button-addon2 {
+  background-color: #ffffff;
+  color: #000000;
+  border: 1px solid color #ffffff;
+  border-radius: 0px 25px 25px 0px;
+}
+.input-group:not(.has-validation)
+  > :not(:last-child):not(.dropdown-toggle):not(.dropdown-menu):not(
+    .form-floating
+  ) {
+  border-radius: 25px 0px 0px 25px;
+}
+.form-check-input {
+  background-color: #000000;
+  border: 1px solid color #ffffff;
+}
+footer .icon-link {
+  padding: 20px 0px;
+}
+footer .icon-link .bi {
+  margin: 0px 5px;
+  color: white;
+}
+footer .container {
+  text-align: center;
+}
+footer .container .row h5 {
+  margin: 20px;
+}
+footer .container .row .social h5 {
+  margin-top: 20px;
+}
+#arrow a {
+  background-color: #898a8a;
+  border-radius: 55px;
+  position: fixed;
+  bottom: 50px;
+  right: 140px;
+  padding: 16px;
+
+  color: #000000;
+}
+
+#arrow a:hover {
+  color: white;
+}
+.form-control::placeholder {
+  opacity: 1;
+  color: white;
+}

@@ -1,0 +1,28 @@
+.grid_red {
+    background-color: red;
+    grid-area: r;
+}
+.grid_blue {
+    background-color: blue;
+    grid-area: b;
+}
+.grid_green {
+    background-color: green;
+    grid-area: g;
+}
+.grid_purple {
+    background-color: purple;
+    grid-area: p;
+}
+.grid_purple2 {
+    background-color: purple;
+    grid-area: p2;
+}
+.grid_container {
+    display: grid;
+    grid-gap: 10px;
+    grid-template: repeat(5, 120px) / repeat(4, 1fr);
+  grid-template-areas: 'r r r r'
+  'b b g g'
+  'b b p p2';
+}

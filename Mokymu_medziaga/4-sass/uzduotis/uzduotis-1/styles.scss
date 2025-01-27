@@ -1,0 +1,31 @@
+@import 'colors';
+.flex-container {
+    display: flex;
+}
+#page-container {
+    max-width: 1100px;
+    margin: 0 auto;
+    header {
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        background-color: $headerFooterBgColor;
+        h1 {
+            padding: 15px;
+        }
+        nav {
+            ul {
+                li {
+                    list-style: none;
+                    margin-left: 10px;
+                    padding: 5px;
+                    a { 
+                        cursor: pointer;
+                        color: $linkColor;
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+    }
+} 

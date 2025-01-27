@@ -1,0 +1,64 @@
+@media screen and (max-width: 768px) {
+  h2 {
+    padding-top: 20px;
+    font-size: 19px;
+  }
+  .lease-plans .container {
+    height: calc(100vh - 300px);
+  }
+  .bike-plans .section-header {
+    padding-left: 13px;
+  }
+  .service-section .container {
+    height: 40vh;
+  }
+  .how-it-works {
+    margin: unset;
+  }
+  .how-it-works .section-header h3 {
+    font-size: 14px;
+  }
+  .how-it-works .section-header h2 {
+    text-align: center;
+    padding-bottom: 40px;
+  }
+  .how-it-works .section-header p {
+    font-size: 10px;
+  }
+
+  .how-it-works .container .row .section-header ul {
+    padding-left: 80px;
+  }
+  .how-it-works .img-fluid {
+    height: 100vh;
+  }
+  .bike-menu .container {
+    padding: unset;
+  }
+  .get-in-touch .form-control::placeholder {
+    color: black;
+    font-size: 12px;
+  }
+  .get-in-touch .form-select {
+    font-size: 13px;
+  }
+  .get-in-touch textarea {
+    font-size: 13px;
+  }
+  .questions h1 {
+    font-size: 40px;
+
+    padding-bottom: unset;
+  }
+  .banner .container {
+    text-align: center;
+    padding: 40px 12px;
+  }
+  .banner .container button {
+    margin: 20px;
+  }
+
+  #arrow a {
+    right: 40px;
+  }
+}

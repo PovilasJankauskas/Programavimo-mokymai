@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let role = 'admin';
+
+        switch (role){
+            case 'guest':
+            console.log('Guest user');
+            console.log('READ');
+            break
+            case 'admin':
+            console.log('Admin user');
+            console.log('READ');
+            console.log('WRITE');
+            break
+            case 'moderator':
+                console.log('Moderator user');
+                console.log('READ');
+                console.log('WRITE');
+                console.log('CONTROL');
+                break
+            default:
+                console.log('unknown user');
+                console.error('Try again')
+        }
+
+/* If palyginimui su Switch*/
+        console.log('IF:')
+
+        if (role === 'guest'){
+            console.log('Guest user');
+        } else if(role === 'admin'){
+            console.log('Admin user');
+        } else if(role === 'moderator'){
+            console.log('Moderator user');
+        } else {
+            console.log('unknow user');
+    }
+    </script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+body {
+    background-color: black;
+}
+h1 {
+    background-color: white;
+}
+h2 {
+    background-color: grey;
+}
+#foto-blokas {
+    background-color: white;
+    
+}
+.link {
+    background-color: red; color: white;
+}
+p {
+    color: blue;
+}
+h3 {
+    color: red;
+}
+#naujienos {
+    background-color: white;
+}
+#naujiena1, #naujiena2, #naujiena3 {
+    background-color: peachpuff;
+}

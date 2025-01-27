@@ -1,0 +1,28 @@
+$redColor: #ff0000;
+
+$font-stack: helvetica, sans-serif;
+$primary-color: green;
+
+body {
+    font:100% $font-stack;
+    color: $primary-color;
+
+}
+
+nav {
+    ul {
+        margin:0;
+        li {
+            color:red;  
+        }
+    }
+    li {
+        display: block;
+    }
+    a { 
+        display: block;
+        padding: 6px 12px;
+        text-decoration: none;
+
+    }
+}
