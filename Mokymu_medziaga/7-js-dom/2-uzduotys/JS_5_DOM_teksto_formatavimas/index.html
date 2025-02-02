@@ -1,11 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Teksto formatavimas </title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Teksto formatavimas</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="form-container">
+      <div class="font-size block">
+        <label for="inputFontSize"> Font size: </label>
+        <input type="number" id="inputFontSize" value="16" min="1" max="100">
+      </div>
+      <div class="font-style block">
+        <label>Font style: </label>
+        <button class="active"id="buttonBasic">Basic </button>
+        <button id="buttonBold"> Bold </button>
+        <button id="buttonItalic">Italic</button>
+      </div>
+    </div>
+    <div class="text-container">
+      <p class="text">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur
+        ratione, hic illum qui optio consequuntur similique doloremque aliquam
+        impedit distinctio, doloribus reiciendis perspiciatis, laborum dolor
+        necessitatibus ut labore excepturi officia!
+      </p>
+    </div>
+
     <script src="script.js"></script>
-</body>
+  </body>
 </html>

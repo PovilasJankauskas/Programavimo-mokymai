@@ -1,0 +1,1 @@
+console.log('Įvairios mini interakcijos');

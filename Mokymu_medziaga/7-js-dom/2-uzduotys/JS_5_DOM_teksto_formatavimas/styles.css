@@ -1,0 +1,28 @@
+.form-container {
+  display: flex;
+  gap: 10px;
+}
+/*lightblue*/
+
+.form-container .block {
+  border: solid 1px black;
+  padding: 15px;
+}
+
+.form-container .font-size #inputFontSize {
+  width: 40px;
+  margin-top: 10px;
+}
+
+.form-container .font-style button {
+  border: none;
+  cursor: pointer;
+  padding: 15px;
+}
+
+.form-container .font-style button:hover {
+background-color: turquoise;
+  }
+.form-container .font-style button.active {
+    background-color:green;
+}
