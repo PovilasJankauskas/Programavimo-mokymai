@@ -1,0 +1,60 @@
+body {
+    background: #c7c7c7;
+
+}
+
+#gallery-container {
+   margin: 0 auto;
+   max-width: 628px;
+}
+
+.selected-image {
+    height: 803px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+    background: url('images/stalas.svg');
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    overflow: hidden;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+button {
+    background: unset;
+    border:none
+}
+.image-gallery {
+    display:flex;
+    gap:20px;
+    width: 100%;
+}
+
+.image-gallery .card {
+    width: 112px;
+    height: 130px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.image-gallery .card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.active {
+    box-shadow: 0 0 0 5px #f4BF03;
+}
+
+.active img {
+   width: 75%;
+   height: 75%;
+}
+
+.card {
+    height: 120px;
+    background: orange;
+  }

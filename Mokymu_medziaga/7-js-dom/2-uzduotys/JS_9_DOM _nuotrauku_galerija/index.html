@@ -1,12 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nuotraukų galerija </title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nuotraukų galerija</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="gallery-container">
+      <div class="selected-image">
+        <button id="back">
+          
+          <img src="images/leftArrow.svg">
+        </button>
+        <button id="next">
+          
+          <img src="images/rightArrow.svg">
+        </button>
+      </div>
+      <div class="image-gallery">
+        <div class="card card-item1 active">
+          <img src="images/kalnai.svg" />
+        </div>
+        <div class="card card-item2">
+          <img src="images/kreslas.svg" />
+        </div>
+        <div class="card card-item3">
+          <img src="images/miestas.svg" />
+        </div>
+        <div class="card card-item4">
+          <img src="images/stalas.svg" />
+        </div>
+        <div class="card card-item5">
+          <img src="images/vanduo.svg" />
+        </div>
+      </div>
+    </div>
+
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
