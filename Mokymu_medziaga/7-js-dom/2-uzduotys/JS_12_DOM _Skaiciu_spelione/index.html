@@ -1,18 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Skaičių spėlionė</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <div id="input-container">
-        <h1> Spekite skaiciu tarp 1 ir 100</h1>
-        <input type="number" id="text-box" placeholder="pvz.: 50">
-        <label for="text-box">Įveskite skaičių nuo 1 iki 100</label> <br>
-        <button> speti </button>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="container-wrapper">
+      <div class="number-image">
+        <img src="img/skaiciai.svg" />
+      </div>
+      <div class="content">
+        <div class="result-container">
+          <div class="result-img">
+            <img src="./img/sadface.svg" />
+          </div>
+          <div id="information-text">
+            <h1>Deja, Neatspejote!</h1>
+            <div id="result">
+              <p>Spekite<span>Didsni</span>skaiciu.</p>
+            </div>
+          </div>
+        </div>
+        <div class="guessing-container">
+          <h1>Spėkite skaičių nuo 1 iki 100</h1>
+          <input type="text" id="spejimas" placeholder="Pvz., 100">
+          <p>Iveskite skaiciu nuo 1 iki 100</p>
+          <button id="speti">Speti</button>
+        </div>
+      </div>
     </div>
+    <div id="atspejote">
+      <div class="happy-image">
+        <img src="./img/happyface.svg" />
+      </div>
+      <h1>Atspejote!</h1>
+      <div class="atspetas-rezultatas">
+        <p>Atspeti Jums pavyko is <span></span>!</p>
+      </div>
+      <button id="play-again">Zaisti is naujo</button>
+    </div>
+
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
