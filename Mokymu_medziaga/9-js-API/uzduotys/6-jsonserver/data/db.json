@@ -1,0 +1,30 @@
+{
+    "posts": [
+        {
+            "id": "1",
+            "title": "Sveiki atvyke i mano tinklarasti",
+            "body": "Pats geriausias tinklarastis ever, su daug klaidu  ir nesuvokimo ka darom",
+            "likes": 30
+        },
+        {
+            "id": "2",
+            "title": "Kaip tapti programuotoju",
+            "body": "Skirti beprotiskai daug laiko mokymuisi, issirauti belenkiek plauku, islieti daug prakaito ir viskas! Na, ir dar nenustoti mokytis.",
+            "likes": 3
+        },
+        {
+            "id": "3",
+            "title": "Mokausi Vilniaus Coding School",
+            "body": "Mokausi topineje kodavimo mokykloje ant Lietuvos su topiniais destytojais",
+            "likes": 99
+        }
+    ],
+    "polls": [
+        {
+            "id": "1",
+            "question": "Kas labiau patinka? Webpack ar Gulp?",
+            "answerA": "Webpack",
+            "answerB": "Gulp"
+        }
+    ]
+}
