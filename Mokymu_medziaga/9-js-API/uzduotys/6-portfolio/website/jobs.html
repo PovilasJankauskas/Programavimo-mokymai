@@ -1,16 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JS portfolio</title>
+    <title>Darbo patirtis </title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link href="styles.css" rel="stylesheet">
-
 </head>
-
 <body>
     <header>
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
@@ -20,6 +17,7 @@
                     <div class="navbar-nav">
                         <a class="nav-link active" aria-current="page" href="index.html">Pradžia</a>
                         <a class="nav-link" href="projects.html">Projektai</a>
+                        <a class="nav-link" href="jobs.html">Darbo patirtis</a>
                     </div>
                 </div>
             </div>
@@ -30,14 +28,22 @@
         <p>Esu wannabe JavaScript Full-stack developeris</p>
     </div>
     <main class="main-block">
-        <h3> Naujausi projektai</h3>
-        <div class="first-card-group">
-        </div>
         <h3> Darbo patirtis </h3>
         <div class="second-card-group">
+            <table class="table table-striped table-hover">
+                <thead>
+                     <th>Data</th>
+                     <th>Imone</th>
+                     <th>role</th>
+                     <th>aprasymas</th>
+                     <th>Lokacija</th>
+                </thead>
+                <tbody id="table-rows">
+                </tbody>
+            </table>
+        
         </div>
     </main>
-    <script src="scripts.js"></script>
+    <script src="jobsScripts.js"></script>
 </body>
-
 </html>

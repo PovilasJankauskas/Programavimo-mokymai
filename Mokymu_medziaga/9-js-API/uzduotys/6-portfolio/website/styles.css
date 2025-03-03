@@ -40,9 +40,15 @@ body {
 }
 
 .second-card-group {
-    display:inline-flex;
+    display: flex;
     justify-content: center;
-}
+  }
+ 
+  .second-card-group .col-sm-6 {
+   width: unset;
+  }
+
+
 h5 {
     display: flex;
     font-weight: 600;
@@ -81,7 +87,7 @@ h3 {
 
 .job-card {
     height: 288px;
-    width: 480px;
+    width: 700px;
     margin: 30px 10px;
     padding: 20px;
 }
@@ -96,3 +102,16 @@ h3 {
     left: 10px;
 }
 
+div.carousel-caption {
+    position: unset;
+}
+.carousel-indicators {
+    margin-top:30px;
+}
+.carousel-item h5 {
+    display: unset;
+}
+.carousel-inner .main-block-tags {
+    justify-content: center;
+    margin: 30px;
+}
