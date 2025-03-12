@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1741614912280" clover="3.2.0">
+  <project timestamp="1741614912280" name="All files">
+    <metrics statements="27" coveredstatements="24" conditionals="2" coveredconditionals="2" methods="17" coveredmethods="14" elements="46" coveredelements="40" complexity="0" loc="27" ncloc="27" packages="1" files="6" classes="6"/>
+    <file name="asyncTesting.js" path="C:\Users\danga\Desktop\Programavimo_mokymai\Mokymu_medziaga\11-js-jest\1-paskaitos\asyncTesting.js">
+      <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+      <line num="2" count="1" type="stmt"/>
+      <line num="3" count="1" type="stmt"/>
+      <line num="4" count="1" type="stmt"/>
+      <line num="8" count="1" type="stmt"/>
+    </file>
+    <file name="examplesTesting.js" path="C:\Users\danga\Desktop\Programavimo_mokymai\Mokymu_medziaga\11-js-jest\1-paskaitos\examplesTesting.js">
+      <metrics statements="8" coveredstatements="8" conditionals="2" coveredconditionals="2" methods="4" coveredmethods="4"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="4" count="2" type="stmt"/>
+      <line num="8" count="4" type="stmt"/>
+      <line num="9" count="4" type="stmt"/>
+      <line num="10" count="4" type="cond" truecount="2" falsecount="0"/>
+      <line num="11" count="2" type="stmt"/>
+      <line num="13" count="4" type="stmt"/>
+      <line num="22" count="1" type="stmt"/>
+    </file>
+    <file name="mock.js" path="C:\Users\danga\Desktop\Programavimo_mokymai\Mokymu_medziaga\11-js-jest\1-paskaitos\mock.js">
+      <metrics statements="5" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="2"/>
+      <line num="2" count="1" type="stmt"/>
+      <line num="5" count="0" type="stmt"/>
+      <line num="9" count="1" type="stmt"/>
+      <line num="12" count="0" type="stmt"/>
+      <line num="14" count="1" type="stmt"/>
+    </file>
+    <file name="notCovered.js" path="C:\Users\danga\Desktop\Programavimo_mokymai\Mokymu_medziaga\11-js-jest\1-paskaitos\notCovered.js">
+      <metrics statements="3" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="7" count="0" type="stmt"/>
+      <line num="10" count="1" type="stmt"/>
+    </file>
+    <file name="objectTesting.js" path="C:\Users\danga\Desktop\Programavimo_mokymai\Mokymu_medziaga\11-js-jest\1-paskaitos\objectTesting.js">
+      <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+      <line num="2" count="1" type="stmt"/>
+      <line num="8" count="1" type="stmt"/>
+      <line num="15" count="1" type="stmt"/>
+    </file>
+    <file name="scripts.js" path="C:\Users\danga\Desktop\Programavimo_mokymai\Mokymu_medziaga\11-js-jest\1-paskaitos\scripts.js">
+      <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+      <line num="2" count="2" type="stmt"/>
+      <line num="6" count="1" type="stmt"/>
+      <line num="10" count="1" type="stmt"/>
+      <line num="12" count="1" type="stmt"/>
+    </file>
+  </project>
+</coverage>
