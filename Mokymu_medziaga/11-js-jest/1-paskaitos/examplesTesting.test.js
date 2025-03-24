@@ -27,9 +27,9 @@ describe("duokMasyva:", () => {
     ]);
   });
 
-  it("masyve yra reikme duona", () => {
-    const spy = jest.spyOn(duokMasyva);
-    const data = duokMasyva();
+  it("masyve yra reiksme duona", () => {
+    const spy = jest.fn(duokMasyva);
+    const data = spy();
 
     expect(spy).toHaveBeenCalled();
     expect(data).toContain("duona");
