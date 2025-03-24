@@ -1,0 +1,10 @@
+.ProduktoKortele {
+    background-color: rgb(71, 173, 173);
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    padding: 10px;
+    margin: 250px;
+    display: flex;
+    flex-direction: column;
+
+}
