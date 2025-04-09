@@ -3,7 +3,7 @@ import { useState } from "react";
 const Zuikis = () => {
   let [arPersoko, setArPersoko] = useState(false);
 
-  //1. (3.?)
+  //1. čia galima ir vienos eilutės kodą rašyti <p>
   const taipNe = () => {
     if (arPersoko === false) {
       return "NE";
@@ -27,11 +27,20 @@ const Zuikis = () => {
   // JavaScript doesn't have a built-in function to generate a random boolean value, but you can easily create one using Math.random(). All you need to do is check if the result of Math.random() is greater than or equal to 0.5.
   //As Math.random() generates a random number between 0 and 1, the probability of the result being greater than or equal to 0.5 is 50%, which makes for an even distribution of true and false values.
 
+  //3.
+
+  const garantuotaiPersokti = () => {
+    setArPersoko(true);
+  };
+
   return (
     <>
       <h3> Zuikis </h3>
       <button onClick={atsitiktinisSokis}> Ar peršoko</button>
       <p> Ar zuikis peršoko griovį - {taipNe()}</p>
+      {/* {arPersoko ? "taip" : "ne"} */}
+
+      <button onClick={garantuotaiPersokti}> Garantuotai peršokti</button>
     </>
   );
 };
