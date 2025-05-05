@@ -1,10 +1,10 @@
 import "./App.css";
-import Komp1 from "./components/Komp1";
+import StyledComponent from "./components/StyledComponent";
 
 function App() {
   return (
     <>
-      <Komp1 />
+      <StyledComponent />
     </>
   );
 }
