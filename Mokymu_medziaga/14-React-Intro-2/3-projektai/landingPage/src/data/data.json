@@ -1,0 +1,239 @@
+{
+    "navigation": {
+        "title": "REACT LANDING PAGE",
+        "navigationItems": [
+            "Matomumas",
+            "Apie",
+            "Paslaugos",
+            "Galerija",
+            "Atsiliepimai",
+            "Komanda",
+            "Kontaktai"
+        ]
+    },
+    "header": {
+        "title": "Bandau sukurti pirmąjį puslapį",
+        "subtitle": "Pirmas bandymas kurti pirmajį puslapį su react naudojant bootstrap ir sass",
+        "button": "Daugiau"
+    },
+    "features": {
+        "title": "PASIŪLYMAI",
+        "featuresItems": [
+            {
+                "icon": "HiChatAlt2",
+                "title": "lorem ipsum",
+                "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+            },
+            {
+                "icon": "HiVolumeUp",
+                "title": "lorem ipsum",
+                "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+            },
+            {
+                "icon": "HiOutlineUserGroup",
+                "title": "lorem ipsum",
+                "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+            },
+            {
+                "icon": "HiPencil",
+                "title": "lorem ipsum",
+                "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+            }
+        ]
+    },
+    "aboutUs": {
+        "title": "About us",
+        "description": "Šiek tiek apie mus",
+        "whyChooseUsTitle": "Kodėl verta rinktis mus?",
+        "whyChooseUsItems": [
+            "Kodėl mes?",
+            "Rinkitės mus, nes.. ",
+            "Apie ką mes?",
+            "Mes dirbame greitai",
+            "Per kiek laiko",
+            "Kruopštumas, mūsų moto",
+            "Stipriausia komanda",
+            "Gražiausia komanda"
+        ]
+    },
+    "services": {
+        "title": "Paslaugos",
+        "description": "Mes teikiam šias paslaugas",
+        "servicesItems": [
+            {
+                "icon": "HiOutlineGlobeAlt",
+                "title": "A-Z puslapio kūrimas",
+                "text": "Mes Galime sukurti Jums išskirtinį puslapį"
+            },
+            {
+                "icon": "HiOutlineCurrencyEuro",
+                "title": "Internetinės parduotuvės",
+                "text": "Pagal Jūsų norus ir veiklą galime sukurti internetinę parduotuvę"
+            },
+            {
+                "icon": "HiOutlineCloud",
+                "title": "Domenai",
+                "text": "Mes galime pasirūpinti visai domenų klausimais"
+            },
+            {
+                "icon": "HiOutlineKey",
+                "title": "Priežiūra",
+                "text": "Jums pageidaujant galime prižiūrėti Jūsų internetinį puslapį "
+            },
+            {
+                "icon": "HiOutlineColorSwatch",
+                "title": "Atlikti darbai",
+                "text": "Mūsų atlikti darbai"
+            },
+            {
+                "icon": "HiOutlineAtSymbol",
+                "title": "Visa kas susiję su programavimų",
+                "text": "Programuojame visomis kalbomis naudojame visus interface ir stiliaus programas. Jūsų virtualus verslas be rūpesčių"
+            }
+        ]
+    },
+    "gallery": {
+        "title": "Galerija",
+        "description": "Atliktų darbų galerija",
+        "images": [
+            {
+                "id": 1,
+                "title": "happy dogas",
+                "url": "https://images.delfi.lt/media-api-image-cropper/v1/c0c5d330-7953-11ed-bbfd-e17f1d900260.jpg?noup&w=1200&h=711&fx=0.5&fy=0.25"
+            },
+            {
+                "id": 2,
+                "title": "happy dogas",
+                "url": "https://images.delfi.lt/media-api-image-cropper/v1/c0c5d330-7953-11ed-bbfd-e17f1d900260.jpg?noup&w=1200&h=711&fx=0.5&fy=0.25"
+            },
+            {
+                "id": 3,
+                "title": "happy dogas",
+                "url": "https://images.delfi.lt/media-api-image-cropper/v1/c0c5d330-7953-11ed-bbfd-e17f1d900260.jpg?noup&w=1200&h=711&fx=0.5&fy=0.25"
+            },
+            {
+                "id": 4,
+                "title": "happy dogas",
+                "url": "https://images.delfi.lt/media-api-image-cropper/v1/c0c5d330-7953-11ed-bbfd-e17f1d900260.jpg?noup&w=1200&h=711&fx=0.5&fy=0.25"
+            },
+            {
+                "id": 5,
+                "title": "happy dogas",
+                "url": "https://images.delfi.lt/media-api-image-cropper/v1/c0c5d330-7953-11ed-bbfd-e17f1d900260.jpg?noup&w=1200&h=711&fx=0.5&fy=0.25"
+            },
+            {
+                "id": 6,
+                "title": "happy dogas",
+                "url": "https://images.delfi.lt/media-api-image-cropper/v1/c0c5d330-7953-11ed-bbfd-e17f1d900260.jpg?noup&w=1200&h=711&fx=0.5&fy=0.25"
+            },
+            {
+                "id": 7,
+                "title": "happy dogas",
+                "url": "https://images.delfi.lt/media-api-image-cropper/v1/c0c5d330-7953-11ed-bbfd-e17f1d900260.jpg?noup&w=1200&h=711&fx=0.5&fy=0.25"
+            },
+            {
+                "id": 8,
+                "title": "happy dogas",
+                "url": "https://images.delfi.lt/media-api-image-cropper/v1/c0c5d330-7953-11ed-bbfd-e17f1d900260.jpg?noup&w=1200&h=711&fx=0.5&fy=0.25"
+            },
+            {
+                "id": 9,
+                "title": "happy dogas",
+                "url": "https://images.delfi.lt/media-api-image-cropper/v1/c0c5d330-7953-11ed-bbfd-e17f1d900260.jpg?noup&w=1200&h=711&fx=0.5&fy=0.25"
+            }
+        ]
+    },
+    "feedback": {
+        "title": "what our clients say",
+        "feedback": [
+            {
+                "id": 1,
+                "author": "Dude dudenson",
+                "text": "Geriausia kompanija dirba",
+                "url": "./public/feedbacks/01.jpg"
+            },
+            {
+                "id": 2,
+                "author": "Dude dudenson",
+                "text": "Geriausia kompanija dirba",
+                "url": "./public/feedbacks/02.jpg"
+            },
+            {
+                "id": 3,
+                "author": "Dude dudenson",
+                "text": "Geriausia kompanija dirba",
+                "url": "./public/feedbacks/03.jpg"
+            },
+            {
+                "id": 4,
+                "author": "Dude dudenson",
+                "text": "Geriausia kompanija dirba",
+                "url": "./public/feedbacks/04.jpg"
+            },
+            {
+                "id": 5,
+                "author": "Dude dudenson",
+                "text": "Geriausia kompanija dirba",
+                "url": "./public/feedbacks/05.jpg"
+            },
+            {
+                "id": 6,
+                "author": "Dude dudenson",
+                "text": "Geriausia kompanija dirba",
+                "url": "./public/feedbacks/06.jpg"
+            }
+        ]
+    },
+    "team": {
+        "team": "meet the team",
+        "description": "Best team ever",
+        "members": [
+            {
+                "id": 1,
+                "name": "Don Jon",
+                "role": "dirikas",
+                "url": ""
+            },
+            {
+                "id": 2,
+                "name": "Peter peter",
+                "role": "marketing",
+                "url": ""
+            },
+            {
+                "id": 3,
+                "name": "Don Jon",
+                "role": "sales",
+                "url": ""
+            },
+            {
+                "id": 4,
+                "name": "Don Jon",
+                "role": "coding",
+                "url": ""
+            }
+        ]
+    },
+    "contacts": {
+        "title": "Get in touch with us",
+        "subtitle": "We are here to help you with any questions or concerns you may have.",
+        "contactInfo": "Contact Information",
+        "contactInfoItems": [
+            {
+                "icon": "CiMapPin",
+                "title": "Location",
+                "text": "123 Hogwarts St, Hogwarts, UK"
+            },
+            {
+                "icon": "CiPhone",
+                "title": "Phone",
+                "text": "+123 456 789"
+            },
+            {
+                "icon": "CiMail",
+                "title": "Email",
+                "text": "info@hogwarts.com"
+            }
+        ]
+    }
+}

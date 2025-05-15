@@ -1,0 +1,213 @@
+.contacts {
+    padding: 60px 0 20px 0;
+    background-color: #b8754b9c;
+
+    .contact-form {
+        h2 {
+            font-size: 25px;
+            font-weight: 700;
+            margin-bottom: 10px;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+            text-align: left;
+        }
+
+        p {
+            color: #fff;
+            margin-bottom: 10px;
+        }
+
+        .form-control {
+            border: none;
+            border-radius: 5px;
+            padding: 15px;
+            background-color: #f8f9fa;
+            margin-bottom: 10px;
+            width: 70%;
+        }
+
+
+        .btn-primary {
+            background: linear-gradient(to right, #7f4826, #4e290e);
+            color: #fff;
+            border: none;
+            border-radius: 22px;
+            padding: 10px 20px;
+            font-size: 16px;
+            font-weight: 300;
+            letter-spacing: 1px;
+            cursor: pointer;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+            margin-top: 20px;
+            text-transform: uppercase;
+
+            &:hover {
+                background: linear-gradient(to right, #e2b77d, #e59532);
+                box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+            }
+        }
+    }
+    .section-underline {
+        display:block;
+        justify-content: left;
+        margin: 20px 0;
+        width: 60px;
+        height: 4px;
+        background: linear-gradient(to right, #7f4826, #4e290e);
+        border-radius: 2px;
+    }
+
+    .contact-info {
+        color: #fff;
+        border-radius: 10px;
+
+        h3 {
+            margin-bottom: 30px;
+            font-size: 25px;
+            font-weight: 700;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+            text-align: left;
+        }
+
+        .info-items {
+            .info-item {
+                display: flex;
+                align-items: center;
+                margin-bottom: 20px;
+
+                .info-icon {
+                    font-size: 20px;
+                    margin-right: 10px;
+                    min-width: 30px;
+                    color: #fff;
+                }
+
+                .info-content {
+                    h4 {
+                        font-size: 18px;
+                        margin-bottom: 10px;
+                        font-weight: bold;
+                    }
+
+                    p {
+                        margin: 0;
+                        opacity: 0.8;
+                    }
+                }
+            }
+        }
+    }
+}
+.footer-line {
+    width: 100%;
+    height: 1px;
+    background-color: #fff;
+    margin: 20px 0;
+}
+
+@media (max-width: 768px) {
+    .contacts {
+        padding: 40px 20px;
+
+        .contact-form {
+            h2 {
+                font-size: 22px;
+                letter-spacing: 2px;
+            }
+
+            .form-control {
+                width: 100%;
+                padding: 12px;
+            }
+
+            .btn-primary {
+                width: 100%;
+                margin-top: 15px;
+            }
+        }
+
+        .contact-info {
+            margin-top: 40px;
+
+            h3 {
+                font-size: 22px;
+                margin-bottom: 25px;
+            }
+
+            .info-items {
+                .info-item {
+                    margin-bottom: 15px;
+
+                    .info-icon {
+                        font-size: 18px;
+                    }
+
+                    .info-content {
+                        h4 {
+                            font-size: 16px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 428px) {
+    .contacts {
+        padding: 30px 15px;
+
+        .contact-form {
+            h2 {
+                font-size: 20px;
+                letter-spacing: 1.5px;
+            }
+
+            p {
+                font-size: 14px;
+            }
+
+            .form-control {
+                padding: 10px;
+                margin-bottom: 8px;
+            }
+
+            .btn-primary {
+                font-size: 14px;
+                padding: 8px 16px;
+            }
+        }
+
+        .contact-info {
+            margin-top: 30px;
+
+            h3 {
+                font-size: 20px;
+                margin-bottom: 20px;
+            }
+
+            .info-items {
+                .info-item {
+                    margin-bottom: 12px;
+
+                    .info-icon {
+                        font-size: 16px;
+                        min-width: 25px;
+                    }
+
+                    .info-content {
+                        h4 {
+                            font-size: 15px;
+                            margin-bottom: 5px;
+                        }
+
+                        p {
+                            font-size: 13px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

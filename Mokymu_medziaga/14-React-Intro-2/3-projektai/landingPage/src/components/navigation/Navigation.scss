@@ -1,0 +1,14 @@
+
+.me-auto{
+    text-transform: uppercase;
+  
+      }
+.me-auto .nav_link:hover{
+   text-decoration: underline cornflowerblue;
+      }
+
+.navBar {
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+}

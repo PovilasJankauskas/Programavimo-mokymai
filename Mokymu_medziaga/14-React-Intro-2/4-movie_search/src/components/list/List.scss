@@ -1,0 +1,17 @@
+.movie-list {
+  margin-top: 50px;
+  .none {
+    text-align: center;
+    font-size: 50px;
+  }
+  .cards-list {
+    justify-content: center;
+    .card {
+      border: none;
+    }
+    .card:hover{
+        cursor: pointer;
+        transform: scale(1.02);
+    }
+  }
+}
