@@ -5,10 +5,9 @@ import { v4 as uuidv4 } from "uuid";
 
 const AddTodo = () => {
   const [newTodo, setTodo] = useState("");
-  const dispatch = useDispatch;
+  const dispatch = useDispatch();
 
   const onAddTodoButtonClick = () => {
-    const [newTodo, setTodo] = useState("");
     dispatch(
       addTodo({
         id: uuidv4(),
