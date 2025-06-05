@@ -1,0 +1,50 @@
+#root {
+    height: 730px;
+    background-color: rgb(5, 86, 140);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+}
+
+.counter {
+    background-color: rgb(198, 198, 241);
+    text-align: center;
+    border-style: double;
+    border-width: 8px;
+    border-color: rgb(36, 190, 126);
+    border-radius: 24px;
+    justify-content: center;
+    padding: 20px;
+}
+
+input {
+    background-color: aquamarine;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 42px;
+}
+
+.btn {
+    padding: 5px 70px;
+    margin: 5px;
+    font-size: 36px;
+    font-weight: bold;
+    cursor: pointer;
+    color: white;
+    border-radius: 10px;
+}
+
+.incBtn {
+    background-color: rgb(0, 149, 22);
+
+}
+
+.decBtn {
+    background-color: rgb(255, 43, 43);
+}
+
+.resetBtn {
+    background-color: rgb(101, 83, 83);
+    margin-top: 10px;
+}
