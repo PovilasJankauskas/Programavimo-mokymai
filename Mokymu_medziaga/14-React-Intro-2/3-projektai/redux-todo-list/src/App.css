@@ -18,8 +18,15 @@
   justify-content: space-evenly;
 }
 
+.todo-list button {
+  background-color: rgb(3, 222, 36);
+  border-radius: 15px;
+  margin-top: 30px;
+}
+
 .filters span {
   margin: 5px;
+  background-color: antiquewhite;
 }
 
 .filter span.active {

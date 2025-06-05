@@ -30,7 +30,7 @@ export const todoReducer = (state = initialState, action) => {
     case SET_FILTER:
       return {
         ...state,
-        filter: action.payload.filter,
+        filterValue: action.payload.filter,
       };
     default:
       return state;
